@@ -31,7 +31,7 @@ function Header() {
           <Navbar.Brand>
             <Link to="/">
               <img
-                alt=""
+                alt="Image"
                 src="../logo512.png"
                 width="40"
                 height="40"

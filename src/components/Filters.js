@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import Rating from "./Rating";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-// import {Rating} from 'react-simple-star-rating'
 import "./styles.css";
 import { CartState } from "../Context/CartContext";
 
@@ -81,18 +79,7 @@ const Filters = () => {
           id={`inline-4`}
         />
       </span>
-      <span>
-        {/* <Rating
-        onClick={handleRating}
-        ratingValue={rating}
-        size={20}
-        label
-        transition
-        fillColor='orange'
-        emptyColor='gray'
-        //className='foo' // Will remove the inline style if applied
-      />{rating} */}
-      </span>
+      
       <span>
         <Rating
           rating={rating}

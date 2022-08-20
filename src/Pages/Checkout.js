@@ -25,7 +25,7 @@ const [total, setTotal] = useState(0)
             <ListGroupItem>
               <Row>
               <Col md={2}>
-                <Image src={item.image} fluid rounded/>
+                <Image alt="img" src={item.image} fluid rounded/>
                   {/* <img className="cartItemImg" src={item.image} /> */}
                 </Col>
                 <Col md={2}>{item.name}</Col>
